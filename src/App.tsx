@@ -3,8 +3,8 @@ import { Header } from './components/Header/index';
 import { Dashboard } from './components/Dashboard/index';
 import { useState } from 'react';
 import { NewTransactionModal } from './components/NewTransactionModal/index.tsx';
-import Modal from 'react-modal';
 import { TransactionsProvider } from './hooks/useTransactions';
+import Modal from 'react-modal';
 
 Modal.setAppElement("#root");
 
